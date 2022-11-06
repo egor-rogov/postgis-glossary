@@ -1,86 +1,155 @@
 | Термин | Контекст | Перевод |
 | --- | --- | --- |
-| 2D, two-dimensional | | двухмерный |
+| 2D, two-dimensional | | двумерный |
 | 3D, three-dimensional | | трехмерный |
+| aligned | (растры) | одинаково выровнены |
+| alignment | (растры) | выравнивание |
 | anchor point | | точка привязки |
 | arc | | дуга |
 | areal | areal type | площадной |
 | axis aligned | bounding box | параллельный осям координат |
 | band | (растры) | канал |
-| bounding box | | ограничивающий прямоугольник/параллелепипед |
+| boundary | | граница (объекта) |
+| boundary point | | граничная точка |
+| bounding box | | ограничивающий прямоугольник / прямоугольный параллелепипед |
 | buffer zone | | буферная зона |
 | circularstring | | круговая линия |
+| clip | | отсечь, вырезать |
+| clipping | | отсечение |
 | closed | cloosed curve | замкнутый |
 | collection geometry | | (разнородная) коллекция |
+| comparator | | оператор сравнения |
 | compound | compound curve | составной |
+| contain | (пространственное отношение) | содержит |
+| contain properly | (пространственное отношение) | строго содержит |
 | control point | c. p. of an arc | контрольная точка |
 | convex hull | | выпуклая оболочка |
 | coordinate dimension | | размерность пространства |
+| coverage | (растры) | покрытие |
+| covered by | (пространственное отношение) | охватывается |
+| cover | (пространственное отношение) | охватывает |
+| cross | (пространственное отношение) | перекрещивание |
 | curved | curved geometry | криволинейный |
 | datum | | датум |
+| difference | (операция над множествами) | разность |
+| Dimensionally Extended 9-Intersection Matrix (DE-9IM) | | пространственно-расширенная модель девяти пересечений |
+| disjoint | (пространственное отношение) | разъединение |
 | edge | (топология) | ребро |
 | equal area projection | | равновеликая проекция |
 | elevation model | | модель рельефа |
 | ellipsoid | | эллипсоид |
+| elevation grid | | сетка высот |
+| extent | | = bounding box / размер (объекта) |
+| exterior | | внешняя область (объекта) |
 | face | (топология) | грань |
 | feature | OSM, like oneway:yes | свойство |
+| feature | spatial feature | объект |
+| fixed precision grid | | сетка фиксированной точности |
 | flattening | (эллипсоидная модель Земли) | полярное сжатие, сжатие |
+| footprint | (3D geometry) | отпечаток (проекция на плоскость XY) |
+| gazetteer | | газетир (географический справочник) |
+| geocoder | | геокодер |
+| geocoding | | геокодирование |
 | geodetic | _прил._ | геодезический |
 | geodetic | для расстояний | определенный на геоиде |
 | geography | | географический объект |
 | geography | тип данных | geography 
 | geiod | | геоид |
+| geometric median | | геометрический центр |
 | geometry | | геометрический объект |
 | geometry | тип данных | geometry |
 | geometry dimension | | размерность геометрического объекта |
 | georeferenced raster | | растр с географической привязкой |
+| georeferencing | | географическая привязка, геопривязка |
+| geotagging | | геотегирование |
 | grid | datum/transformation grid | сетка |
 | grid snapping | | привязка к сетке |
 | hole | polygon with no holes | дыра |
+| instrumentation | data collected via instrumentation | измерительные приборы |
+| interior | | внутренняя область (объекта) |
+| interior point | | внутренняя точка |
+| intersection matrix | | матрица пересечений |
+| intersect | (пространственное отношение) | пересекает |
+| intersect with tolerance | | пересекает с допуском |
 | inverse flattening | (эллипсоидная модель Земли) | величина, обратная (полярному) сжатию |
+| KNN distance operator | | KNN-оператор расстояния |
+| KNN bounding-box distance operator | | KNN-оператор расстояния ограничивающих прямоугольников |
+| KNN trajectory distance operator | | KNN-оператор расстояния по траектории |
 | layer | | слой |
 | line _= linestring with exactly 2 points_ | | отрезок |
+| linear referencing | | система линейных координат |
 | linestring | | линия, ломаная линия |
+| magnetic deviation | | магнитное отклонение |
+| map algebra | | алгебра карт |
 | mapping | mapping tool, mapping service | картографический |
 | measure-preserving SRS | | система координат, сохраняющая расстояние (равнопромежуточная) |
 | multi- | multipolygon и др. типы | мульти- |
+| nD KNN distance operator | | многомерный KNN-оператор расстояния |
+| neighborhood | | окрестность |
 | network | (топология) | сеть |
 | node | (топология) | узел |
 | non-simple | | непростой, не являющийся простым |
 | non-valid | | дефектный |
 | observation point | | точка наблюдения |
 | open | open curve | незамкнутый |
+| overlap | (пространственное отношение) | перекрывание |
 | overview table | (растры} | обзорная таблица |
 | planar | planar surface | плоский |
 | planar | planar graph | планарный |
 | polygon | | полигон |
 | polyhedral surface | | многогранная поверхность |
 | projection | | проекция |
-| proximity function | | функция близости |
+| proximity | | близость |
 | reference ellipsoid | | референц-эллипсоид, опорный эллипсоид |
-| eference grid | | индексная сетка |
+| reference grid | | индексная сетка |
+| regional tagging | | привязка к региону |
+| reclass | | переклассификация |
+| reference raster | | опорный растр |
+| relate | relate one geometry to another | соотносить |
+| relationship query | | запрос (пространственного) отношения |
 | reprojection | | перепроецирование |
+| resampling | | передискретизация |
+| reverse geocoding | | обратное геокодирование |
 | ring | polygon ring | кольцо |
+| rotation | (аффинные преобразования) | поворот, вращение |
 | routing | (топология) | маршрутизация |
 | scale | (растры) | масштаб |
+| scaling | (аффинные преобразования) | масштабирование (растяжение/сжатие) |
 | segment | s. of a circularstring | сегмент |
-| shift grid | | сетка поправок |
-| survey | topographical survey | съемка |
-| survey point | | геодезический пункт |
+| segmentize | | сегментировать |
 | sferoid | | сфероид |
-| surface | | поверхность |
 | shapefile | | шейп-файл |
+| sharding | sharding geometires | разделение (на группы) |
+| sharding | (масштабирование баз данных) | шардинг |
+| shift grid | | сетка поправок |
 | skew | (растры) | наклон |
+| snapping | snapping to grid | привязка |
 | solid | solid surface/geometry | сплошной, сплошное тело, тело |
 | spatial | _прил._ | пространственный |
 | Spatial Reference ID (SRID) | | идентификатор пространственной системы координат, SRID |
 | spatial reference system | | (пространственная) система координат |
+| spatial relationship | | пространственное отношение |
+| split | | разбить |
+| subdivide | | разделить |
+| survey | topographical survey | съемка |
+| survey point | | геодезический пункт |
+| surface | | поверхность |
+| surface elevation grid | | сетка высот поверхности |
+| symmetric difference | (операция над множествами) | симметрическая разность |
+| tessellate | | замостить |
 | tile | | тайл |
+| tolerance | | допуск, допустимое расстояние |
+| topological exceptions | | исключения топологии |
 | topology | | топологический объект |
+| touch | (пространственное отношение) | соприкасание |
 | translation | в геометрии | параллельный перенос |
+| translating | (аффинные преобразования) | параллельный перенос |
 | triangle | | треугольник |
 | triangulated irregular network (TIN) | | нерегулярная триангулированная сеть |
 | type modifier, typmod | | модификатор типа |
 | type modifier | length/subtype/... type modifier| модификатор длины/подтипа/... |
 | valid | valid polygon | бездефектный |
+| valid trajectory | допустимая траектория |
 | volumetric | volumetric surface | объемный |
+| within | (пространственное отношение) | содержится |
+| world file | | файл геопривязки, world-файл |
