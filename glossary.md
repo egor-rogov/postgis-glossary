@@ -13,6 +13,8 @@
 | boundary point | | граничная точка |
 | bounding box | | ограничивающий прямоугольник / прямоугольный параллелепипед |
 | buffer zone | | буферная зона |
+| callback function | | функция обратного вызова |
+| cell | (растры) | элемент растра |
 | circularstring | | круговая линия |
 | clip | | отсечь, вырезать |
 | clipping | | отсечение |
@@ -25,6 +27,8 @@
 | control point | c. p. of an arc | контрольная точка |
 | convex hull | | выпуклая оболочка |
 | coordinate dimension | | размерность пространства |
+| contour line | | изолиния |
+| contour polygon | | изополигон |
 | coverage | (растры) | покрытие |
 | covered by | (пространственное отношение) | охватывается |
 | cover | (пространственное отношение) | охватывает |
@@ -109,6 +113,7 @@
 | relationship query | | запрос (пространственного) отношения |
 | reprojection | | перепроецирование |
 | resampling | | передискретизация |
+| retailing | (растры} | повторное разбиение на тайлы, изменение размера тайлов |
 | reverse geocoding | | обратное геокодирование |
 | ring | polygon ring | кольцо |
 | rotation | (аффинные преобразования) | поворот, вращение |
@@ -119,7 +124,7 @@
 | segmentize | | сегментировать |
 | sferoid | | сфероид |
 | shapefile | | шейп-файл |
-| sharding | sharding geometires | разделение (на группы) |
+| sharding | sharding geometires | разделение (на фрагменты) |
 | sharding | (масштабирование баз данных) | шардинг |
 | shift grid | | сетка поправок |
 | skew | (растры) | наклон |
@@ -137,7 +142,8 @@
 | surface elevation grid | | сетка высот поверхности |
 | symmetric difference | (операция над множествами) | симметрическая разность |
 | tessellate | | замостить |
-| tile | | тайл |
+| tile | (растры) | тайл |
+| tiling | (растры) | разбиение на тайлы |
 | tolerance | | допуск, допустимое расстояние |
 | topological exceptions | | исключения топологии |
 | topology | | топологический объект |
@@ -151,5 +157,6 @@
 | valid | valid polygon | бездефектный |
 | valid trajectory | допустимая траектория |
 | volumetric | volumetric surface | объемный |
+| warping algorithm | | алгоритм трансформации |
 | within | (пространственное отношение) | содержится |
 | world file | | файл геопривязки, world-файл |
