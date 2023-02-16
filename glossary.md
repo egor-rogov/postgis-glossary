@@ -13,6 +13,7 @@
 | boundary point | | граничная точка |
 | bounding box | | ограничивающий прямоугольник / прямоугольный параллелепипед |
 | buffer zone | | буферная зона |
+| bunching | (кластеризация) | группировка |
 | callback function | | функция для обратного вызова |
 | cell | (растры) | ячейка |
 | circularstring | | круговая линия |
@@ -22,18 +23,20 @@
 | collection geometry | | (разнородная) коллекция |
 | comparator | | оператор сравнения |
 | compound | compound curve | составной |
+| connectedness | | связность |
 | contain | (пространственное отношение) | содержит |
 | contain properly | (пространственное отношение) | строго содержит |
+| contour line | | изолиния |
+| contour polygon | | изополигон |
 | control point | c. p. of an arc | контрольная точка |
 | convex hull | | выпуклая оболочка |
 | coordinate dimension | | размерность пространства |
-| contour line | | изолиния |
-| contour polygon | | изополигон |
 | coverage | (растры) | покрытие |
 | covered by | (пространственное отношение) | охватывается |
 | cover | (пространственное отношение) | охватывает |
 | cross | (пространственное отношение) | перекрещивание |
 | curved | curved geometry | криволинейный |
+| data frame | (python) | фрейм данных |
 | datum | | датум |
 | difference | (операция над множествами) | разность |
 | Dimensionally Extended 9-Intersection Matrix (DE-9IM) | | пространственно-расширенная модель девяти пересечений DE-9IM |
@@ -54,12 +57,14 @@
 | gazetteer | | газетир (географический справочник) |
 | geocoder | | геокодер |
 | geocoding | | геокодирование |
+| geodata fame | (python) | фрейм геоданных |
 | geodetic | _прил._ | геодезический |
 | geodetic | для расстояний | определенный на геоиде |
 | geography | | географический объект |
-| geography | тип данных | geography 
+| geography | тип данных | geography |
+| geohash | | геохеш |
 | geiod | | геоид |
-| geometric median | | геометрический центр |
+| geometric median | | геометрическая медиана |
 | geometry | | геометрический объект |
 | geometry | тип данных | geometry |
 | geometry dimension | | размерность геометрического объекта |
@@ -84,13 +89,15 @@
 | linear referencing | | система линейных координат |
 | linestring | | линия, ломаная линия |
 | magnetic deviation | | магнитное отклонение |
-| map algebra | | алгебра карт |
+| map algebra | | алгебраические выражения (определяющие отображение) |
 | mapping | mapping tool, mapping service | картографический |
 | measure-preserving SRS | | система координат, сохраняющая расстояние (равнопромежуточная) |
 | multi- | multipolygon и др. типы | мульти- |
 | nD KNN distance operator | | многомерный KNN-оператор расстояния |
 | neighborhood | | окрестность |
 | network | (топология) | сеть |
+| network routing | (маршрутизация) | сетевая маршрутизация |
+| network topology | (маршрутизация) | топологическая сеть |
 | node | (топология) | узел |
 | non-simple | | непростой, не являющийся простым |
 | non-valid | | дефектный |
@@ -106,6 +113,7 @@
 | proximity | | близость |
 | reference ellipsoid | | референц-эллипсоид, опорный эллипсоид |
 | reference grid | | индексная сетка |
+| reference raster | (растры) | опорный растр |
 | regional tagging | | привязка к региону |
 | reclass | | переклассификация |
 | reference raster | | опорный растр |
@@ -131,6 +139,7 @@
 | snapping | snapping to grid | привязка |
 | solid | solid surface/geometry | сплошной, сплошное тело, тело |
 | spatial | _прил._ | пространственный |
+| spatial feature | | пространственный объект |
 | Spatial Reference ID (SRID) | | идентификатор пространственной системы координат, SRID |
 | spatial reference system | | (пространственная) система координат |
 | spatial relationship | | пространственное отношение |
@@ -145,8 +154,11 @@
 | tile | (растры) | тайл |
 | tiling | (растры) | нарезка на тайлы |
 | tolerance | | допуск, допустимое расстояние |
+| topoelement | | топологический элемент |
+| topogeometry | | топологически связанный геометрический объект |
 | topological exceptions | | исключения топологии |
-| topology | | топологический объект |
+| topology | | топологическая сеть |
+| topology layer | | топологический слой |
 | touch | (пространственное отношение) | соприкасание |
 | translation | в геометрии | параллельный перенос |
 | translating | (аффинные преобразования) | параллельный перенос |
